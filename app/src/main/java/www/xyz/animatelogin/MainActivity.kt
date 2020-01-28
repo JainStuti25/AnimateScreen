@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
 
         val animationDrawable = ianimate.background as AnimationDrawable
-//        animationDrawable.setEnterFadeDuration(2000)
-//        animationDrawable.setExitFadeDuration(3000)
+        animationDrawable.setEnterFadeDuration(2000)
+        animationDrawable.setExitFadeDuration(3000)
         animationDrawable.start()
 
 
